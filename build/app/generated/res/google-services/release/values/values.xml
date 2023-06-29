@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">344499700282-v0mphpgn4cfauha2l62kvgp9cgc7pgic.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">344499700282</string>
+    <string name="google_api_key" translatable="false">AIzaSyBnJl70F0BCTzPM1xZ2ifoztAfwkfEZnoY</string>
+    <string name="google_app_id" translatable="false">1:344499700282:android:53a678549f0d4e014e2b03</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBnJl70F0BCTzPM1xZ2ifoztAfwkfEZnoY</string>
+    <string name="google_storage_bucket" translatable="false">lawyer-app-e6f2d.appspot.com</string>
+    <string name="project_id" translatable="false">lawyer-app-e6f2d</string>
+</resources>
