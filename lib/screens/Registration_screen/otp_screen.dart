@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
+import 'package:untitled10/screens/Registration_screen/controller/otp_screen_controller.dart';
 import 'package:untitled10/screens/Registration_screen/registration_page.dart';
 import 'package:untitled10/screens/home_screen.dart';
+import 'package:provider/provider.dart';
 class OTP_Field extends StatelessWidget {
   const OTP_Field({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final watch=context.watch<OtpScreenController>();
+    final read=context.watch<OtpScreenController>();
     return Scaffold(
       appBar: AppBar(
         backgroundColor:  Color(0xFF8A2387),
@@ -35,7 +39,7 @@ class OTP_Field extends StatelessWidget {
               height: 100,
             ),
             OTPTextField(
-              length: 5,
+              length: 6,
               width: MediaQuery.of(context).size.width,
               fieldWidth: 60,
               style: TextStyle(
@@ -46,6 +50,7 @@ class OTP_Field extends StatelessWidget {
               fieldStyle: FieldStyle.underline,
               onCompleted: (pin) {
                 print("Completed: " + pin);
+                read.onOtpEntered(pin);
               },
             ),
             SizedBox(
@@ -53,7 +58,7 @@ class OTP_Field extends StatelessWidget {
             ),
             InkWell(
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>LawyerRegistrationForm()));
+               read.onCodeVerification(context);
               },
               child: GestureDetector(
                 child: Container(

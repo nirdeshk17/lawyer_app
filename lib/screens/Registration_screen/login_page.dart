@@ -2,14 +2,19 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
+import 'package:untitled10/screens/Registration_screen/controller/otp_screen_controller.dart';
 import 'package:untitled10/screens/home_screen.dart';
+import 'package:provider/provider.dart';
 
 import 'otp_screen.dart';
+enum LoginScreen { SHOW_MOBILE_ENTER_WIDGET, SHOW_OTP_FORM_WIDGET }
 class Login extends StatelessWidget {
   const Login({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final watch=context.watch<OtpScreenController>();
+    final read=context.watch<OtpScreenController>();
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
@@ -58,6 +63,7 @@ class Login extends StatelessWidget {
                     Container(
                       width: 250,
                       child:IntlPhoneField(
+                        controller: watch.mobileController,
                         decoration: InputDecoration(
                           labelText: 'Phone Number',
                         ),
@@ -79,7 +85,7 @@ class Login extends StatelessWidget {
 
                     InkWell(
                       onTap: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>OTP_Field()));
+                        read.onLoginClicked(context);
                       },
                       child: GestureDetector(
                         child: Container(

@@ -1,4 +1,4 @@
-package com.example.untitled10
+package com.lawayer.lawyer_app
 
 import io.flutter.embedding.android.FlutterActivity
 

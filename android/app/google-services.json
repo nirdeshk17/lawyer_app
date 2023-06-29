@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "344499700282",
+    "project_id": "lawyer-app-e6f2d",
+    "storage_bucket": "lawyer-app-e6f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344499700282:android:53a678549f0d4e014e2b03",
+        "android_client_info": {
+          "package_name": "com.lawayer.lawyer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344499700282-nf0sq4940pad9kgp0d6t74813nmmrva4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lawayer.lawyer_app",
+            "certificate_hash": "874244dabe5f9b38d99d020d1f983197a477f4c3"
+          }
+        },
+        {
+          "client_id": "344499700282-v0mphpgn4cfauha2l62kvgp9cgc7pgic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnJl70F0BCTzPM1xZ2ifoztAfwkfEZnoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344499700282-v0mphpgn4cfauha2l62kvgp9cgc7pgic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

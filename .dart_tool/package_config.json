@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "_flutterfire_internals",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "async",
       "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
@@ -90,6 +96,42 @@
       "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/file_picker-5.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "firebase_auth",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_auth-4.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_auth_platform_interface-6.15.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_auth_web-5.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_core-2.14.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-4.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/firebase_core_web-2.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "flutter",
@@ -194,6 +236,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "octo_image",
       "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/octo_image-1.0.2",
       "packageUri": "lib/",
@@ -270,6 +318,12 @@
       "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/process-4.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/nirdeshkumar/.pub-cache/hosted/pub.dev/provider-6.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "rxdart",
@@ -374,7 +428,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-29T02:05:38.933847Z",
+  "generated": "2023-06-29T02:34:32.426192Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }
